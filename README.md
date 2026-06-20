@@ -26,6 +26,10 @@ or
 ```bash
 pip install -r requirements.txt      
 ```
+4. Run main.py
+```bash
+python main.py
+```
 
 ## 🗑 Uninstallation
 Run uninstall.bat to remove the installed libraries, your Downloads/ folder will not be deleted.
