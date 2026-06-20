@@ -32,7 +32,6 @@ Run uninstall.bat to remove the installed libraries, Downloads folder will not b
 
 🤝 Credits & Dependencies
 - **[KickApi](https://github.com/Enmn/KickApi)** by Enmn
-* **[KickApi](https://github.com/YourKickApiSource)** - The core wrapper used to communicate with Kick's internal API endpoints.
 * **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** - The powerful command-line media downloader engine handling background stream and VOD extraction.
 * **[requests](https://pypi.org/project/requests/)** / **[curl_cffi](https://pypi.org/project/curl-cffi/)** - Advanced HTTP clients used to manage clean network connections and mimic browser handshakes.
 * **[cloudscraper](https://pypi.org/project/cloudscraper/)** - Assists in bypassing standard bot-protection walls safely.
