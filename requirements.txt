@@ -1,0 +1,7 @@
+requests
+cloudscraper
+ua-generator
+yt-dlp
+curl_cffi
+psutil
+KickApi
