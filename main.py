@@ -309,7 +309,7 @@ def channel_dashboard(channel):
                 print(f"\n  {UI.BOLD}LAST STREAM:{UI.RESET}")
                 print(f"  • Date: {d_str}")
                 print(f"  • Title: {last_v.title}")
-                print(f"  • Link: {UI.BLUE}https://kick.com/video/{last_v.id}{UI.RESET}")
+                print(f"  • Link: {UI.BLUE}https://kick.com/{channel.username}/videos/{last_v.uuid}{UI.RESET}")
             else:
                 print(f"\n  • Last Stream: No VODs found.")
 
@@ -352,7 +352,7 @@ def channel_dashboard(channel):
 
                     # --- Direct Links Visualization ---
                     vod_web_url = getattr(v, 'url', None) or (
-                        f"https://kick.com/video/{v.id}" if hasattr(v, 'id') else "N/A")
+                        f"https://kick.com/{channel.username}/videos/{v.uuid}" if hasattr(v, 'uuid') else "N/A")
                     print(f"      🔗 VOD Link: {UI.BLUE}{vod_web_url}{UI.RESET}")
                     print(f"      📺 M3U8 Link: {UI.YELLOW}{v.stream}{UI.RESET}")
 
